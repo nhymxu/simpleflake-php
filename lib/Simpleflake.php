@@ -5,7 +5,7 @@ namespace Simpleflake;
 /**
  * @var int
  */
-const EPOCH = 946702800;
+const EPOCH = 1420070400; // 2015-01-01
 
 /**
  * @var int
