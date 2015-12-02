@@ -1,11 +1,10 @@
 {
-    "name": "michaelcontento/simpleflake-php",
+    "name": "traxo/simpleflake-php",
     "description": "",
     "authors": [{
-        "name": "Michael Contento",
-        "email": "michaelcontento@gmail.com"
+        "name": "Traxo"
     }],
-    "license": "",
+    "license": "MIT",
     "keywords": ["simpleflake", "uuid"],
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
