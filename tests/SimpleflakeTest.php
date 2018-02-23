@@ -23,7 +23,7 @@ class SimpleflakeTest extends \PHPUnit_Framework_TestCase
         $id = \Simpleflake\generate();
         $length = strlen((string) $id);
 
-        $this->assertGreaterThanOrEqual(19, $length);
+        $this->assertGreaterThanOrEqual(18, $length);
     }
 
     public function testGenerateTimestamp()
@@ -67,7 +67,7 @@ class SimpleflakeTest extends \PHPUnit_Framework_TestCase
 
         $this->assertArrayHasKey("timestamp", $parts);
         $this->assertArrayHasKey("randomBits", $parts);
-        $this->assertEquals(1409004570.859, $parts["timestamp"]);
+        $this->assertEquals(1913908170.859, $parts["timestamp"]);
         $this->assertEquals(2081970, $parts["randomBits"]);
     }
 
@@ -84,7 +84,7 @@ class SimpleflakeTest extends \PHPUnit_Framework_TestCase
 
         $this->assertArrayHasKey("timestamp", $parts);
         $this->assertArrayHasKey("randomBits", $parts);
-        $this->assertEquals(1409004570.859, $parts["timestamp"]);
+        $this->assertEquals(1913908170.859, $parts["timestamp"]);
         $this->assertEquals(2081970, $parts["randomBits"]);
     }
 }
