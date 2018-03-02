@@ -1,8 +1,8 @@
 {
-    "name": "traxo/simpleflake-php",
+    "name": "nhymxu/simpleflake-php",
     "description": "",
     "authors": [{
-        "name": "Traxo"
+        "name": "Dũng Nguyễn (nhymxu)"
     }],
     "license": "MIT",
     "keywords": ["simpleflake", "uuid"],
